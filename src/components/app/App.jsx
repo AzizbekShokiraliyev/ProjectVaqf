@@ -1,0 +1,31 @@
+import Footer from '../footer/Footer'
+import EighthMain from '../main/eighthMain/EighthMain'
+import FifthMain from '../main/fifthMain/FifthMain'
+import FirstMain from '../main/FirstMain.jsx/FirstMain'
+import FourtMain from '../main/fourthMain/FourthMain'
+import NinthMain from '../main/ningthMain/NinthMain'
+import SecondMain from '../main/secondMain/SecondMain'
+import SeventhMain from '../main/seventhMain/SeventhMain'
+import SixthMain from '../main/sixthMain/SixthMain'
+import ThirdMain from '../main/thirdMain/ThirdMAin'
+import SideBar from '../sidebar/SideBar'
+
+const App = () => {
+	return (
+		<div>
+			<SideBar />
+			<FirstMain />
+			<SecondMain />
+			<ThirdMain />
+			<FourtMain />
+			<FifthMain />
+			<SixthMain />
+			<SeventhMain />
+			<EighthMain />
+			<NinthMain />
+			<Footer />
+		</div>
+	)
+}
+
+export default App
