@@ -1,7 +1,7 @@
 import '@fontsource/patrick-hand'
 import image from '../../../assets/secondImage.jpg'
 
-const ThirdMain = () => {
+const ThirdMAin = () => {
 	return (
 		<div className='flex flex-col md:flex-row h-auto md:h-[90vh]'>
 			{/* Left Image Section */}
@@ -40,4 +40,4 @@ const ThirdMain = () => {
 	)
 }
 
-export default ThirdMain
+export default ThirdMAin

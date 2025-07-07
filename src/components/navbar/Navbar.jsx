@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { FaUsers } from 'react-icons/fa'
 import { FaHeart } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
+import Logo from '../../assets/Logo.jpg'
 const Navbar = () => {
 	const [openMenu, setOpenMenu] = useState(null)
 	const menuRef = useRef()
@@ -27,7 +28,7 @@ const Navbar = () => {
 		>
 			<div className='mx-auto px-4 py-3 flex justify-between items-center'>
 				<Link to='/' className='text-xl font-bold text-blue-700'>
-					The Water Project
+					<img src={Logo} className='w-[70px] h-[60px]' />
 				</Link>
 
 				<ul className='hidden md:flex space-x-6 text-sm font-medium'>
