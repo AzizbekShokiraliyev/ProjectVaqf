@@ -8,12 +8,12 @@ import SecondMain from '../main/secondMain/SecondMain'
 import SeventhMain from '../main/seventhMain/SeventhMain'
 import SixthMain from '../main/sixthMain/SixthMain'
 import ThirdMain from '../main/thirdMain/ThirdMAin'
-import SideBar from '../sidebar/SideBar'
+import Navbar from '../navbar/NavBar'
 
 const App = () => {
 	return (
 		<div>
-			<SideBar />
+			<Navbar />
 			<FirstMain />
 			<SecondMain />
 			<ThirdMain />
