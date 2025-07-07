@@ -7,7 +7,7 @@ import NinthMain from '../main/ningthMain/NinthMain'
 import SecondMain from '../main/secondMain/SecondMain'
 import SeventhMain from '../main/seventhMain/SeventhMain'
 import SixthMain from '../main/sixthMain/SixthMain'
-import ThirdMain from '../main/thirdMain'
+import ThirdMain from '../main/thirdMain/ThirdMain'
 import Navbar from '../navbar/NavBar'
 
 const App = () => {
