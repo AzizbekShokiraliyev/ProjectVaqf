@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import { FaUsers } from 'react-icons/fa'
 import { FaHeart } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
-const SideBar = () => {
+const Navbar = () => {
 	const [openMenu, setOpenMenu] = useState(null)
 	const menuRef = useRef()
 
@@ -217,7 +217,7 @@ const SideBar = () => {
 					</a>
 					<Link
 						to=''
-						className='bg-yellow-500 text-white px-4 py-2 rounded text-sm flex items-center gap-1'
+						className='bg-[#DC9027] text-white px-4 py-2 rounded text-sm flex items-center gap-1'
 					>
 						<FaUsers />
 						<span>Fundraise</span>
@@ -228,4 +228,4 @@ const SideBar = () => {
 	)
 }
 
-export default SideBar
+export default Navbar
