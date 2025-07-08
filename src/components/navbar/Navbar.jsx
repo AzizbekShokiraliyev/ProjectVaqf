@@ -4,7 +4,7 @@ import { FaHeart } from 'react-icons/fa6'
 import { Link } from 'react-router-dom'
 import Logo from '../../assets/Logo.jpg'
 
-const Navbar = () => {
+const Navbar = ({ openDonateModal }) => {
 	const [openMenu, setOpenMenu] = useState(null)
 	const menuRef = useRef()
 
@@ -34,65 +34,41 @@ const Navbar = () => {
 
 				<ul className='hidden md:flex space-x-6 text-sm font-medium'>
 					<li>
-						<Link to='/donate' className='hover:text-blue-600'>
+						<button onClick={openDonateModal} className='hover:text-blue-600'>
 							Donate
+						</button>
+					</li>
+					<li>
+						<Link to='/waterCrisis' className='hover:text-blue-600'>
+							Why Water?
 						</Link>
 					</li>
-
-					<li className='relative'>
-						<button
-							onClick={() => toggleMenu('why')}
-							className='hover:text-blue-600'
-						>
-							<Link to='/waterCrisis'>Why Water?</Link>
-						</button>
+					<li>
+						<button className='hover:text-blue-600'>Take Action</button>
 					</li>
-
-					<li className='relative'>
-						<button
-							onClick={() => toggleMenu('action')}
-							className='hover:text-blue-600'
-						>
-							Take Action
-						</button>
+					<li>
+						<button className='hover:text-blue-600'>Our Work</button>
 					</li>
-
-					<li className='relative'>
-						<button
-							onClick={() => toggleMenu('work')}
-							className='hover:text-blue-600'
-						>
-							Our Work
-						</button>
+					<li>
+						<Link to='/aboutUs' className='hover:text-blue-600'>
+							About Us
+						</Link>
 					</li>
-
-					<li className='relative'>
-						<button
-							onClick={() => toggleMenu('about')}
-							className='hover:text-blue-600'
-						>
-							<Link to='/aboutUs'>About Us</Link>
-						</button>
-					</li>
-
-					<li className='relative'>
-						<button
-							onClick={() => toggleMenu('contact')}
-							className='hover:text-blue-600'
-						>
-							<Link to='contactUs'>Contact</Link>
-						</button>
+					<li>
+						<Link to='/contactUs' className='hover:text-blue-600'>
+							Contact
+						</Link>
 					</li>
 				</ul>
 
 				<div className='hidden md:flex items-center space-x-3'>
-					<a
-						href=''
+					<button
+						onClick={openDonateModal}
 						className='bg-[#D75D32] text-white px-4 py-2 rounded text-sm flex items-center gap-1'
 					>
 						<FaHeart />
 						<span>Donate</span>
-					</a>
+					</button>
 					<Link
 						to=''
 						className='bg-[#DC9027] text-white px-4 py-2 rounded text-sm flex items-center gap-1'
