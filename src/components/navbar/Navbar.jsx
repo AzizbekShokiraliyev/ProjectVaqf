@@ -29,34 +29,31 @@ const Navbar = ({ openDonateModal }) => {
 		>
 			<div className='mx-auto px-4 py-3 flex justify-between items-center'>
 				<Link to='/' className='text-xl font-bold text-blue-700'>
-					<img src={Logo} className='w-[70px] h-[60px]' />
+					<img src={Logo} className='w-[80px] h-[70px]' />
 				</Link>
 
 				<ul className='hidden md:flex space-x-6 text-sm font-medium'>
 					<li>
 						<button onClick={openDonateModal} className='hover:text-blue-600'>
-							Donate
+							Maqsad
 						</button>
 					</li>
 					<li>
 						<Link to='/waterCrisis' className='hover:text-blue-600'>
-							Why Water?
+							Jamoamiz
 						</Link>
 					</li>
 					<li>
-						<button className='hover:text-blue-600'>Take Action</button>
-					</li>
-					<li>
-						<button className='hover:text-blue-600'>Our Work</button>
+						<button className='hover:text-blue-600'>Natijalar</button>
 					</li>
 					<li>
 						<Link to='/aboutUs' className='hover:text-blue-600'>
-							About Us
+							Biz Haqimizda
 						</Link>
 					</li>
 					<li>
 						<Link to='/contactUs' className='hover:text-blue-600'>
-							Contact
+							Bog‘lanish 
 						</Link>
 					</li>
 				</ul>
@@ -67,14 +64,14 @@ const Navbar = ({ openDonateModal }) => {
 						className='bg-[#D75D32] text-white px-4 py-2 rounded text-sm flex items-center gap-1'
 					>
 						<FaHeart />
-						<span>Donate</span>
+						<span>Ehson Qilish</span>
 					</button>
 					<Link
 						to=''
 						className='bg-[#DC9027] text-white px-4 py-2 rounded text-sm flex items-center gap-1'
 					>
 						<FaUsers />
-						<span>Fundraise</span>
+						<span>Kongilli Bolish</span>
 					</Link>
 				</div>
 			</div>

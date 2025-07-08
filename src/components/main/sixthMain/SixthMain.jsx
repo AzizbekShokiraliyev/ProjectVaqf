@@ -15,25 +15,25 @@ const SixthMain = () => {
 				<div className='max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center'>
 					{/* Impact */}
 					<div className='bg-[#EAF2F7] rounded-lg p-6 shadow-md'>
-						<h4 className='text-[#2D6484] text-lg font-medium mb-1'>Impact</h4>
-						<h1 className='text-4xl font-bold text-[#2D6484] mb-1'>901,250</h1>
-						<h6 className='text-sm text-[#2D6484]'>People Today</h6>
+						<h4 className='text-[#2D6484] text-lg font-medium mb-1'>Natija</h4>
+						<h1 className='text-4xl font-bold text-[#2D6484] mb-1'>40+</h1>
+						<h6 className='text-sm text-[#2D6484]'>Quduqlar Qazildi</h6>
 					</div>
 
 					{/* Monitoring */}
 					<div className='bg-[#EAF2F7] rounded-lg p-6 shadow-md'>
 						<h4 className='text-[#2D6484] text-lg font-medium mb-1'>
-							Currently Monitoring
+							Hozirda
 						</h4>
 						<h1 className='text-4xl font-bold text-[#2D6484] mb-1'>2,261</h1>
-						<h6 className='text-sm text-[#2D6484]'>Water Points</h6>
+						<h6 className='text-sm text-[#2D6484]'>Nafar odamlar Suv Bilan ta'minlangan</h6>
 					</div>
 
 					{/* Status */}
 					<div className='bg-[#EAF2F7] rounded-lg p-6 shadow-md'>
-						<h4 className='text-[#2D6484] text-lg font-medium mb-1'>Status</h4>
+						<h4 className='text-[#2D6484] text-lg font-medium mb-1'>Holat</h4>
 						<h1 className='text-4xl font-bold text-[#2D6484] mb-1'>97%</h1>
-						<h6 className='text-sm text-[#2D6484]'>Water Flowing</h6>
+						<h6 className='text-sm text-[#2D6484]'>Loyihalar Muvaqqiyati</h6>
 					</div>
 				</div>
 			</div>

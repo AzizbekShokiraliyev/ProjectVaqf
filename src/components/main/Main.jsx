@@ -13,8 +13,8 @@ const Main = () => {
 			<FirstMain />
 			<SecondMain />
 			<ThirdMain />
-			<FourtMain />
-			<FifthMain />
+			{/* <FourtMain /> */}
+			{/* <FifthMain /> */}
 			<SixthMain />
 			<SeventhMain />
 			<EighthMain />

@@ -37,17 +37,19 @@ const FirstMain = () => {
 			<div className='flex justify-start items-start my-14 mx-14'>
 				<div className='min-h-[600px] w-[450px] bg-white rounded-md mt-12 mb-12 px-8 py-8 shadow-lg'>
 					<div className='font-hand text-[#2D6484] text-5xl leading-tight mb-4 text-center'>
-						<h1>Give Water.</h1>
-						<h1>Give Life.</h1>
+						<h1>Suv -</h1>
+						<h1>Hayot Manbai</h1>
 					</div>
 
-					<p className='mb-6 text-gray-700 text-center font-bold'>
-						Just $50 can provide one person with <br /> safe &amp; reliable
-						water
+					<h3 className='font-second text-lg mb-6 text-gray-700 font-bold'>
+						 Bugun ehson qiling va doimiy savobga ega bo‘ling!
+					</h3>
+					<p className='mb-6 text-gray-700 '>
+						 O‘zbekiston va MDH davlatlaridagi ichimlik suvi muammosini hal qilish uchun bizga qo‘shiling!
 					</p>
 
-					{/* Toggle Donation Mode */}
-					<div className='flex justify-between gap-4'>
+		
+					{/* <div className='flex justify-between gap-4'>
 						<button
 							onClick={() => handleModeChange('oneTime')}
 							className={`w-1/2 rounded-md border border-[#2D6484] px-4 py-2 shadow-sm transition-colors duration-200 ${
@@ -69,10 +71,10 @@ const FirstMain = () => {
 							<FaHeart />
 							<span>Monthly</span>
 						</button>
-					</div>
+					</div> */}
 
 					{/* Donation Amount Buttons */}
-					<div className='grid grid-cols-3 gap-4 mt-10'>
+					<div className='grid grid-cols-3 gap-4 mt-5'>
 						{donationOptions[mode].map((amount, index) => (
 							<button
 								key={index}
@@ -96,13 +98,16 @@ const FirstMain = () => {
 							onChange={e => setAmount(e.target.value)}
 							className='w-full h-full px-4 py-2 text-2xl text-[#2D6484] font-semibold border border-[#2D6484] rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-[#2D6484]'
 						/>
-					</div>
+					</div> 
 
-					{/* Donate */}
-					<div className='w-full h-[60px]'>
-						<button className='mt-6 w-full h-full px-4 py-2 text-xl text-white font-semibold border border-[#2D6484] rounded-md shadow-sm bg-[#2D6484]'>
-							Donate Now
+					<div className='w-90 flex justify-between h-[60px]'>
+						<button className='mt-6 w-50 h-full px-4 py-2 text-xl text-white font-semibold border border-[#2D6484] rounded-md shadow-sm bg-[#2D6484]'>
+							Ehson qilish
 						</button>
+						<button className='mt-6 w-50 h-full px-4 py-2 text-xl text-white font-semibold border border-[#2D6484] rounded-md shadow-sm bg-[#2D6484]'>
+							Ko‘ngilli bo‘lish
+						</button>
+
 					</div>
 				</div>
 			</div>

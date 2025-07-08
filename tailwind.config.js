@@ -5,6 +5,7 @@ export default {
 		extend: {
 			fontFamily: {
 				hand: ['"Patrick Hand"', 'cursive'],
+				second: ['"Open Sans", sans-serif'],
 			},
 		},
 	},
