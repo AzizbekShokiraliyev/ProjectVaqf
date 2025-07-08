@@ -33,7 +33,7 @@ const Navbar = () => {
 
 				<ul className='hidden md:flex space-x-6 text-sm font-medium'>
 					<li>
-						<Link to='' className='hover:text-blue-600'>
+						<Link to='/donate' className='hover:text-blue-600'>
 							Donate
 						</Link>
 					</li>
@@ -48,7 +48,10 @@ const Navbar = () => {
 						{openMenu === 'why' && (
 							<ul className='absolute bg-white shadow-md mt-2 w-48'>
 								<li>
-									<Link to='' className='block px-4 py-2 hover:bg-gray-100'>
+									<Link
+										to='/waterCrisis'
+										className='block px-4 py-2 hover:bg-gray-100'
+									>
 										Water Crisis
 									</Link>
 								</li>
